@@ -11,7 +11,7 @@ resource "aws_iam_user" "user" {
 
   tags = {
     Builder = "terraform OK",
-    another = "secondtag"
+    another = "secondtagg"
 
   }
 }
