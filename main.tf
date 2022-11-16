@@ -8,6 +8,8 @@ resource "aws_iam_user" "user" {
   path = "/system/"
 
   tags = {
-    tag-key = "terraform OK"
+    Builder = "terraform OK",
+    another = "secondtag"
+
   }
 }
